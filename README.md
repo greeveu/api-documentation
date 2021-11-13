@@ -4,9 +4,11 @@ This is the documentation for the public greev.eu API, for now this will be a ra
 
 
 
+
 ##### API Base URL
 
 The base URL for the current api is: `https://api.greev.eu/v2` from now on all calls will omit the base part.
+
 
 
 
@@ -18,11 +20,13 @@ All UUID __have to be__ the long variant with dashes.
 
 
 
+
 ### Player Stats
 
 In order to get the Player specific stats you can call the following endpoint: `/player/stats/{UUID}` eg.: `/player/stats/01cba8c4-ef9d-4ff9-aee3-5ba4bb38c3c8`
 
 Games for which a player doesn't have stats for will not appear in response.
+
 
 
 
@@ -68,6 +72,7 @@ The `count` and `offset` have to be any number.
 
 
 
+
 ### Player stats for a specific Gamemode
 
 In order to get the gamemode stats for a specific player you can use the following url: `/stats/{game}/player/{uuid}`
@@ -75,6 +80,7 @@ In order to get the gamemode stats for a specific player you can use the followi
 The `game` placeholder has the one of the valid gamemodes from the list above.
 
 The `uuid` again has the be a user uuid with dashes.
+
 
 
 
