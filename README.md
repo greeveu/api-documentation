@@ -82,6 +82,13 @@ The `game` placeholder has the one of the valid gamemodes from the list above.
 The `uuid` again has the be a user uuid with dashes.
 
 
+### Player stats for the Adventcalender
+
+To get the times, fails, checkpoints etc stats for the advent calender you can use the following url: `/stats/advent/top?year={year}&id={id}&count={count}&offset={offset}`
+`year` has to be a year in which the event was hosted, like 2019 or 2020.  
+`id` is the jumpandrun id / day. It has to be between 1 and 24.
+`Count` can be at max 50 and must be at least 1.  
+`Offset` can be any number above or 0.  
 
 
 ### Player Name, UUID and Name History
