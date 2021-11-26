@@ -63,7 +63,7 @@ fastbridge_staircase
 tntrun
 tokens
 loginstreak
-performance```
+performance
 ```
 
 The `count` and `offset` have to be any number. 
@@ -84,12 +84,14 @@ The `uuid` again has the be a user uuid with dashes.
 
 
 
-### Player Name and UUID
+### Player Name, UUID and Name History
 
-__This endpoint will cache the results and has no SLO.__
+__This endpoint will cache the results and have no SLO.__
 
 To get the UUID of a player you can use `/player/uuid/{name}`
 
-And to get the Name of a player you can use `/player/name/{uuid}`
+To get the Name of a player you can use `/player/name/{uuid}`  
+
+And to get the Name History of a player you can use `/player/namehistory/{uuid}`
 
 Where the `name` has to be a valid Minecraft name and the `uuid` has to be a valid Minecraft uuid with dashes.
