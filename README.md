@@ -84,7 +84,7 @@ The `uuid` again has the be a user uuid with dashes.
 
 ### Player stats for the Adventcalender
 
-To get the times, fails, checkpoints etc stats for the advent calender you can use the following url: `/stats/advent/top?year={year}&id={id}&count={count}&offset={offset}`
+To get the times, fails, checkpoints etc stats for the advent calender you can use the following url: `/stats/advent/top/{year}/{id}?count={count}&offset={offset}`
 
 
 `year` has to be a year in which the event was hosted, like 2019 or 2020.  
