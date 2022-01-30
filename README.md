@@ -61,6 +61,7 @@ fastbridge_short
 fastbridge_inclined_short
 fastbridge_staircase
 tntrun
+jumpleague
 tokens
 loginstreak
 performance
